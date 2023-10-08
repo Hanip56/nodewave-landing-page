@@ -2,7 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: white;
-  background: black;
+@layer base {
+  body {
+    color: white;
+    background: black;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .textBody1 {
+    @apply text-lg sm:text-xl lg:text-2xl;
+  }
+
+  @media screen and (max-width: 1024px) {
+    h1 {
+      font-size: 45px;
+      font-weight: 600;
+      line-height: 1.4em;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 1.4em;
+    }
+
+    h3 {
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 1.4em;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    h1 {
+      font-size: 41px;
+      font-weight: 600;
+      line-height: 1.2em;
+    }
+
+    h2 {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 1.2em;
+    }
+
+    h3 {
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.3em;
+    }
+  }
 }

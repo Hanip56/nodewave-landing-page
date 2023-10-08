@@ -1,6 +1,6 @@
 "use client";
 
-import { logoWhite } from "@/app/assets";
+import { logoWhite } from "@/assets";
 import Image from "next/image";
 import { Dispatch, SetStateAction } from "react";
 

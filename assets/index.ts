@@ -18,6 +18,8 @@ export { default as websiteIcon } from "./icons/website.svg";
 export { default as workshopIcon } from "./icons/workshop.svg";
 export { default as youtubeIcon } from "./icons/youtube.svg";
 export { default as menuIcon } from "./icons/menu.svg";
+export { default as headIdeaIcon } from "./icons/head-idea.svg";
+export { default as rightArrowIcon } from "./icons/right-arrow.svg";
 
 // images
 export { default as background } from "./images/background.svg";

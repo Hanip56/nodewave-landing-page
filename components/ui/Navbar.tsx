@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { logoWhite, menuIcon } from "@/app/assets";
+import { logoWhite, menuIcon } from "@/assets";
 import { MobileMenu } from "..";
 
 const Navbar = () => {
@@ -41,12 +41,20 @@ const Navbar = () => {
         style={{
           top: HEADER_TOP_STYLE,
           position: HEADER_POSITION_STYLE,
+          backgroundColor:
+            HEADER_POSITION_STYLE === "fixed" ? "black" : "transparent",
+          zIndex: 10,
         }}
       >
         <nav className="max-w-[87rem] mx-auto flex items-center justify-between py-7 px-4 xl:px-0">
-          <Image src={logoWhite} alt="Nodewave logo" priority />
+          <Image
+            className="w-48 md:w-[14rem]"
+            src={logoWhite}
+            alt="Nodewave logo"
+            priority
+          />
           <button
-            className="block lg:hidden text-white"
+            className="block lg:hidden text-white cursor-pointer"
             onClick={() => setShowMobileMenu(true)}
           >
             <Image
