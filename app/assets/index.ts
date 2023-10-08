@@ -17,6 +17,7 @@ export { default as twitterIcon } from "./icons/twitter.svg";
 export { default as websiteIcon } from "./icons/website.svg";
 export { default as workshopIcon } from "./icons/workshop.svg";
 export { default as youtubeIcon } from "./icons/youtube.svg";
+export { default as menuIcon } from "./icons/menu.svg";
 
 // images
 export { default as background } from "./images/background.svg";
