@@ -10,8 +10,6 @@ const Navbar = () => {
   const [isScrollUp, setIsScrollUp] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
-  console.log({ isScrollUp });
-
   useEffect(() => {
     const onScroll = () => {
       setIsScrollUp(offset > scrollY);
@@ -48,9 +46,10 @@ const Navbar = () => {
       >
         <nav className="max-w-[87rem] mx-auto flex items-center justify-between py-7 px-4 xl:px-0">
           <Image
-            className="w-48 md:w-[14rem]"
+            className="w-48 md:w-[14rem] h-auto"
             src={logoWhite}
             alt="Nodewave logo"
+            width={50}
             priority
           />
           <button

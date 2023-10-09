@@ -11,3 +11,4 @@ export { default as Testimony } from "./sections/Testimony";
 // ui
 export { default as Navbar } from "./ui/Navbar";
 export { default as MobileMenu } from "./ui/MobileMenu";
+export { default as ChatComp } from "./ui/ChatComp";

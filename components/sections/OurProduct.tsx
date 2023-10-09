@@ -17,12 +17,7 @@ const OurProduct = () => {
           <div className="bg-white xl:basis-[60%] h-full p-8 lg:py-12 lg:px-10 rounded-3xl flex items-center cursor-pointer hover:bg-white/90">
             <div className="flex w-full items-center gap-4 lg:gap-6">
               <div className="flex-shrink-0">
-                <Image
-                  src={mobileAppsIcon}
-                  width={60}
-                  height={60}
-                  alt="mobile apps icon"
-                />
+                <Image src={mobileAppsIcon} alt="mobile apps icon" />
               </div>
               <div>
                 <h3 className="text-[#333] font-rubik">Mobile Apps</h3>

@@ -13,6 +13,7 @@ const Hero = () => {
           src={background}
           alt="background code"
         />
+        {/* overlay */}
         <div className="absolute h-40 w-full bg-gradient-to-t from-black to-transparent bottom-0 right-0 " />
         <div className="hidden xl:block absolute w-20 h-full bg-gradient-to-l from-black to-transparent bottom-0 right-0 " />
       </div>

@@ -26,6 +26,12 @@
     line-height: normal;
   }
 
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
   .textBody1 {
     @apply text-lg sm:text-xl lg:text-2xl;
   }
@@ -66,6 +72,11 @@
     h3 {
       font-size: 21px;
       font-weight: 500;
+      line-height: 1.2em;
+    }
+
+    h4 {
+      font-size: 19px;
       line-height: 1.2em;
     }
   }
