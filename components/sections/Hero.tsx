@@ -12,6 +12,7 @@ const Hero = () => {
           className="h-full w-full object-cover "
           src={background}
           alt="background code"
+          priority
         />
         {/* overlay */}
         <div className="absolute h-40 w-full bg-gradient-to-t from-black to-transparent bottom-0 right-0 " />
@@ -21,7 +22,12 @@ const Hero = () => {
         <div className="relative">
           {/* tag icon */}
           <div className="absolute -top-7 xl:-top-8 left-0 xl:-left-5">
-            <Image className="w-8 xl:w-12" src={tagIcon} alt="html tag icon" />
+            <Image
+              className="w-8 xl:w-12"
+              src={tagIcon}
+              alt="html tag icon"
+              priority
+            />
           </div>
           <h1>
             Make Your Own <br /> Website and Mobile Application <br />
@@ -32,6 +38,7 @@ const Hero = () => {
                   className="w-10 md:w-16"
                   src={headIdeaIcon}
                   alt="head idea icon"
+                  priority
                 />
               </div>
             </span>

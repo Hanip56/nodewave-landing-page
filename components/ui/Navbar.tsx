@@ -44,7 +44,7 @@ const Navbar = () => {
           zIndex: 10,
         }}
       >
-        <nav className="max-w-[87rem] mx-auto flex items-center justify-between py-7 px-4 xl:px-0">
+        <nav className="max-w-[87rem] mx-auto flex items-center justify-between py-4 lg:py-7 px-4 xl:px-0">
           <Image
             className="w-48 md:w-[14rem] h-auto"
             src={logoWhite}

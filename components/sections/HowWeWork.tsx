@@ -35,6 +35,7 @@ const HowWeWork = () => {
             src={howWeWorkCardBg}
             alt="noisy black background"
             className="w-full h-full object-cover"
+            priority
           />
         </div>
       </div>
@@ -43,6 +44,7 @@ const HowWeWork = () => {
           src={howWeWorkBg}
           alt="noisy blue background"
           className="w-full h-full object-cover"
+          priority
         />
       </div>
     </section>

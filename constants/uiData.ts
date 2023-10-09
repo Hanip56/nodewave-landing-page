@@ -15,7 +15,43 @@ import {
   userNodewave,
   workshopIcon,
   youtubeIcon,
+  workBg1,
+  workThumbnail1,
+  workBg2,
+  workThumbnail2,
 } from "@/assets";
+
+export const testimonies = [
+  {
+    text: "Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave",
+    author: "Ahmad Prasetyo",
+  },
+  {
+    text: "Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.",
+    author: "Laras Ratnadewi",
+  },
+  {
+    text: "Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!",
+    author: "Yusuf Uwais",
+  },
+];
+
+export const works = [
+  {
+    title: "Rayu Motor",
+    description:
+      "AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales",
+    bg: workBg1,
+    image: workThumbnail1,
+  },
+  {
+    title: "Jasabung",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, ea ad corrupti natus error laborum.",
+    bg: workBg2,
+    image: workThumbnail2,
+  },
+];
 
 export const chats: {
   user: string;

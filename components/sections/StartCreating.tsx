@@ -21,6 +21,7 @@ const StartCreating = () => {
                   src={discountBadgeIcon}
                   alt="discount badge icon"
                   className="absolute -right-4 -top-2"
+                  priority
                 />
                 <span>Rp, 1.000.000</span>
               </div>
@@ -35,6 +36,7 @@ const StartCreating = () => {
               src={websiteCard}
               alt="picture code"
               className="w-full h-full object-cover"
+              priority
             />
           </div>
         </div>
@@ -57,6 +59,7 @@ const StartCreating = () => {
               src={mobileAppsCard}
               alt="mobile screen picture"
               className="w-full h-full object-cover"
+              priority
             />
           </div>
         </div>

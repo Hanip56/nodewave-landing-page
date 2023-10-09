@@ -15,7 +15,7 @@ const ChatComp = ({ user, altUser, text, align }: Props) => {
         align === "left" ? "flex-row" : "flex-row-reverse"
       }`}
     >
-      <Image src={user} alt={altUser} />
+      <Image src={user} alt={altUser} priority />
       <div className="flex-1 p-2 bg-[#D9D9D9] rounded-[0.625rem] leading-normal text-[0.75rem] text-[#333]">
         {text}
       </div>
